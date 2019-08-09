@@ -37,6 +37,9 @@ public class BookShop {
 	}
 	
 	private static void displayBookInfo( Book[] books ) {
-
+		for(Book i: books) {
+			i.print();
+			
+		}
 	}	
 }
